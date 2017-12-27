@@ -1,0 +1,38 @@
+<DOCTYPE html>
+    <html>
+
+    <head>
+
+        <title>Calculadora</title>
+
+        <script type="text/javascript" src="calc.js"></script>
+       
+    </head>
+
+    <body>
+        <form name="calc">
+            <input type="text" name="visor" size=11 readonly="true"/>
+            <br>
+            <input type="button" value="7" onclick="botao( value );" />
+            <input type="button" value="8" onclick="botao( value );" />
+            <input type="button" value="9" onclick="botao( value );" />
+            <input type="button" value="/" onclick="operacao( value );" />
+            <br>
+            <input type="button" value="4" onclick="botao( value );" />
+            <input type="button" value="5" onclick="botao( value );" />
+            <input type="button" value="6" onclick="botao( value );" />
+            <input type="button" value="*" onclick="operacao( value );" />
+            <br>
+            <input type="button" value="1" onclick="botao( value );" />
+            <input type="button" value="2" onclick="botao( value );" />
+            <input type="button" value="3" onclick="botao( value );" />
+            <input type="button" value="+" onclick="operacao( value );" />
+            <br>
+            <input type="button" value="C" onclick="reset();" />
+            <input type="button" value="0" onclick="botao( value );" />
+            <input type="button" value="=" onclick="calcule( );" />
+            <input type="button" value="-" onclick="operacao( value );" />
+        </form>
+    </body>
+
+    </html>
